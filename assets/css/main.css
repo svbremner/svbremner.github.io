@@ -1099,6 +1099,16 @@ input, select, textarea {
 		height: 90vh;
 		z-index: 1;
 	}
+	
+	#bg:before, #bg:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 90%;
+			height: 90%;
+		}
 
 		
 		#bg:before {
