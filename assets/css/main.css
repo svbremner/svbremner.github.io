@@ -1133,6 +1133,16 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+		#bg:before, #bg:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 90%;
+			height: 90%;
+		}
+
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
