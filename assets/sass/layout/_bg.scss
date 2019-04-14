@@ -46,7 +46,7 @@
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/bg.jpg');
+			background-image:		url('../../images/bg.jpg') no-repeat left center fixed;
 			background-position:	left, center;
 			background-size:		90%;
 			background-repeat:		no-repeat;
