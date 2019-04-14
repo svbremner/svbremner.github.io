@@ -627,13 +627,13 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-color: rgba(19, 21, 25, 0);
 			border-radius: 4px;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -1119,7 +1119,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0), rgba(19, 21, 25, 0)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1235,6 +1235,7 @@ input, select, textarea {
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		padding: 16px;
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1272,6 +1273,7 @@ input, select, textarea {
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
+			background-color: rgba(27, 31, 34, 0.25);
 			border-radius: 100%;
 		}
 
@@ -1282,6 +1284,7 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
+			background-color: rgba(27, 31, 34, 0.25);
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1321,12 +1324,14 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
+			background-color: rgba(27, 31, 34, 0.25);
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				background-color: rgba(27, 31, 34, 0.25);
 			}
 
 				#header nav ul li:first-child {
@@ -1459,6 +1464,7 @@ input, select, textarea {
 					#header nav ul li {
 						border-left: 0;
 						border-top: solid 1px #ffffff;
+						background-color: rgba(27, 31, 34, 0.25);
 					}
 
 						#header nav ul li:first-child {
