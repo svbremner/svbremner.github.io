@@ -41,13 +41,13 @@
 		}
 
 		&:after {
-			@include vendor('transform', 'scale(1.125)');
+			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', (
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/bg.jpg') no-repeat left bottom fixed;
-			background-position:	left, bottom;
+			background-image:		url('../../images/bg.jpg');
+			background-position:	0% 100%;
 			background-size:		cover;
 			background-repeat:		no-repeat;
 			z-index: 1;
@@ -55,7 +55,7 @@
 
 		body.is-article-visible & {
 			&:after {
-				@include vendor('transform', 'scale(1.0825)');
+				@include vendor('transform', 'scale(1)');
 				@include vendor('filter', 'blur(0.2rem)');
 			}
 		}
