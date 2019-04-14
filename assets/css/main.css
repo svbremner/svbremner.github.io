@@ -626,7 +626,6 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1106,8 +1105,8 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 10%;
-			height: 10%;
+			width: 100%;
+			height: 100%;
 		}
 
 		#bg:before {
@@ -1119,7 +1118,6 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
