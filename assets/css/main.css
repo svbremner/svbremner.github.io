@@ -1087,10 +1087,10 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-transform: scale(1.125);
-		-webkit-transform: scale(1.125);
-		-ms-transform: scale(1.125);
-		transform: scale(1.125);
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
@@ -1127,17 +1127,17 @@ input, select, textarea {
 		}
 
 		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
+			-moz-transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+			-ms-transform: scale(1.0);
+			transform: scale(1.0);
 			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/bg.jpg");
-			background-size: contain;
-			background-position: left, center;
+			background-size: cover;
+			background-position: left, bottom;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
